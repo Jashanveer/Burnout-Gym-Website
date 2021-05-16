@@ -2,8 +2,9 @@
 
 
     <head>
-        <title>Gym Registrations</title>
+        <title>BURNOUT GYM</title>
         
+        <link rel="shortcut icon" type="image/jpg" href="./Pictures/dumbbell.png"/>
         <link rel="stylesheet" href="./src/Main page css.css">
         
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -14,20 +15,21 @@
     </head>
     <body>
       
+
+
       <!-- <!NAVBAR> -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-dark " id="navbar">
+        <nav class=" navbar navbar-expand-lg bg-dark " id="navbar">
             <a class="navbar-brand text-warning" style="font-size:30px;" href="#"><b>BURNOUT GYM</b></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+            
           
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle text-warning" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin:10px; font-size:20px;">
+                  <a class="nav-link dropdown-toggle text-warning" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" style="margin:10px; font-size:20px;">
                     Classes
                   </a>
-                  <div class="dropdown-menu bg-dark text-warning" aria-labelledby="navbarDropdown">
+                  
+                  <div class="dropdown-menu bg-dark text-warning">
                     <a class="dropdown-item bg-dark text-warning" href="#">Aerobics</a>
                     <a class="dropdown-item bg-dark text-warning" href="#">Crossfit</a>
                     <a class="dropdown-item bg-dark text-warning" href="#">Masala Bhangra</a>
@@ -38,10 +40,10 @@
                 </li>
 
                 <li class="nav-item active">
-                  <a class="nav-link text-warning" href="#facilities" style="margin:10px; font-size:20px;">Facilities <span class="sr-only"></span></a>
+                  <a class="nav-link text-warning" href="#facilities" style="margin:10px; font-size:20px;">Facilities</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-warning" href="#two" style="margin:10px; font-size:20px;">Trial Session</a>
+                  <a class="nav-link text-warning" href="#column-table-title" style="margin:10px; font-size:20px;">Trial Session</a>
                 </li>
               </ul>
                 
@@ -51,6 +53,8 @@
           </nav>
         
         
+
+
           <!-- <! Pictures> -->
           <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -72,38 +76,41 @@
           </div>
           
           
+
+
           <!-- <! OUR FACILITIES> -->
           <div id="facilities">
             <div style="width: 100%;">
-              <b class="our-facilities-title1 text-light" >OUR </b>
-              <b class="our-facilities-title"  >FACILITIES</b>
+              <b class="our-facilities-title1 text-light" > OUR </b>
+              <b class="our-facilities-title2"  >FACILITIES</b>
             </div>
+            
             <div class="left-fac">
               <!-- img one  -->
               <div class="content_img">
                 <img class="img-fac" src="./Pictures/facility1.jpg" alt="facility1">
-                <div class="text">Personal Training</div>
+                <div class="text"><b class="fac-text-title">Personal Training</b><br> You thought personal trainers are only for athletes or sports stars? How many times have you set new fitness goals for yourself only to lose interest in a couple of weeks? If you are struggling through the same flux of motivation it is time for you to capitalize on the tremendous benefits of working out under a personal trainer. </div>
               </div>
               
               <!-- image four  -->
               <div class="content_img" style="margin-top: 50px;">
                 <img class="img-fac" src="./Pictures/facility4.jpg" alt="facility1">
-                <div class="text">Masala Bhangra <br></div>
+                <div class="text"><b class="fac-text-title">Masala Bhangra</b> <br>Channel your masculine side and feminine grace with Masala Bhangra. Find your inner being at a higher level with successive bouts of excitement and empowerment. It will be more of partying out than working out</div>
               </div>
-
-
             </div>
+            
+            
             <div class= "center-fac">
               <!-- image two  -->
               <div class="content_img">
                 <img src="./Pictures/facility2.jpg" class="img-fac" alt="">
-                <div class="text">Crossfit</div>
+                <div class="text"><b class="fac-text-title">Crossfit</b><br> Blast an insane number of calories with this high intensity, interval training workout. Maximise your range of motion with tough core movements in quick succession.</div>
               </div>
 
               <!-- image five  -->
               <div class="content_img" style="margin-top: 50px;">
                 <img src="./Pictures/facility5.jpg" class="img-fac" alt="">
-                <div class="text">Cycling</div>
+                <div class="text"><b class="fac-text-title">Cycling</b><br> Pump through the gears, ramp up resistance and crush calories. Energising, exhilarating and easy to start – pedal to heart pumping music and get lost in the moment.</div>
               </div>
 
             </div>
@@ -111,39 +118,42 @@
               <!-- image three  -->
               <div class="content_img">
                 <img src="./Pictures/facility3.jpg" class="img-fac" alt="">
-                <div class="text">Functional Training</div>
+                <div class="text"><b class="fac-text-title">Functional Training</b><br> This is that super exercise that involves training the body for the activities performed in daily life. Emphasis is on the body's natural ability to move in varied degrees of freedom. Reclaim that balance of the body with excellent improvement in motor patterns. </div>
               </div>
 
               <!-- image six  -->
               <div class="content_img" style="margin-top: 50px;">
                 <img src="./Pictures/facility6.jpg" class="img-fac" alt="">
-                <div class="text">Aerobics</div>
+                <div class="text"><b class="fac-text-title">Aerobics</b><br> Sweat-soaked. Lung-bursting. Fun-filled. Fire up your aerobics workout and leave hungry for more.</div>
               </div>
             </div>
           </div>
           
 
+
+
           <!-- Banner-->
           <div class="banner">
-            <div id="left">
-              <div class="text-1">
+            <div id="ban-left">
+              <div class="ban-text1">
                 <b>DOWNLOAD THE BURNOUT GYM's APP TODAY</b> <br>
               </div>
-              <div class="text-2">
+              <div class="ban-text2">
                 <i>GET ACCESS TO WORKOUT VIDEOS BY INTERNATIONAL FITNESS TRAINERS</i>
               </div>
             </div>
             
-            <div id="right">
-              <button class="banner-btn"><b>DOWNLOAD</b></button>
+            <div id="ban-right">
+              <button class="banner-btn" onclick="window.location.href='https://play.google.com/store/search?q=gym%20app';"><b>DOWNLOAD</b></button>
             </div>
           </div>
 
          
 
 
+
          <!-- Two columns--> 
-          <div class="two-columns" id="two">
+          <div class="two-columns">
          
             <div class="col1">
               <br><br>  
@@ -158,66 +168,73 @@
             
             <div class="col2" id="col2">
               <br><br>  
-              <p ID="COLUMN-TABLE-TITLE">BOOK YOUR TRIAL SESSION TODAY!!</</p>
+              <p id="column-table-title">BOOK YOUR TRIAL SESSION TODAY!!</</p>
                 <br><br>
               <table>
                 <tr>
                   <td>
                       <label class="form-labels">NAME*</label>
                   </td>
-                  <td id = 'a'><input type="text"  id="user" class="i" placeholder="Enter Your Name" required></td>
+                  <td><input type="text"  id="name" class="form-input" placeholder="Enter Your Name" required></td>
                 </tr>
+                
                 <tr>
                   <td>
                       <label class="form-labels"> EMAIL*</label>
                   </td>
-                  <td id = 'a'>
-                    <input type="email"  id="email" required class="i" placeholder="Enter Your Email"> 
-                  </td>
-                </tr>
-                <tr>
                   <td>
-                    <label class="form-labels">PHONE NUMBER*</label>
-                  </td id = 'a'>
-                  <td><input type='number' class="i" id="ph" maxlength="10" minlength="10" required placeholder="Enter Your Phone No.">
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                      <label class="form-labels" >STATE</label>
-                  </td>
-                  <td id = 'a'>
-                    <input type="text" name="code" class="i" id="code" placeholder="Enter Your State">
-                  </td>
-                </tr>
-                  
-                <tr>
-                  <td>
-                      <label class="form-labels">DATE OF BIRTH</label>
-                  </td>
-                  <td id = 'a'>
-                      <input type="date" name="date" id="date" class="i">
-                  </td>
-                <tr>
-                  <td rowspan="2">
-                    <p class="form-labels">QUERIES</p>
-                  </td>
-                  <td id = 'a'>
-                    <textarea name="remarks" id=remarks rows="7" cols="40" 
-                    placeholder="Please type your queries (if any)" class="i"></textarea>
+                    <input type="email"  id="email" class="form-input" placeholder="Enter Your Email" required> 
                   </td>
                 </tr>
                 
                 <tr>
-                  <td ><button type="submit" id="form-btn" class= 'b-n'>BOOK NOW</button>
+                  <td>
+                    <label class="form-labels">PHONE NUMBER*</label>
+                  </td>
+                  <td><input type='number' class="form-input" id="phone" maxlength="10" minlength="10" placeholder="Enter Your Phone No." required>
+                  </td>
+                </tr>
+                
+                <tr>
+                  <td>
+                      <label class="form-labels" >STATE</label>
+                  </td>
+                  <td>
+                    <input type="text" class="form-input" id="state" placeholder="Enter Your State">
+                  </td>
+                </tr>
+                
+                <tr>
+                  <td>
+                      <label class="form-labels">DATE OF BIRTH</label>
+                  </td>
+                  <td>
+                      <input type="date" id="date" class="form-input">
+                  </td>
+                
+                <tr>
+                  <td rowspan="2">
+                    <p class="form-labels">QUERIES</p>
+                  </td>
+                  <td>
+                    <textarea name="remarks" class="form-input" id="remarks" rows="7" cols="40" 
+                    placeholder="Please type your queries (if any)"></textarea>
+                  </td>
+                </tr>
+                
+                <tr>
+                  <td ><button type="submit" id="form-btn">BOOK NOW</button>
                   </td>
                 </tr>
               </table>
             </div>
           </div>
           
-          <!-- Footer  -->
 
+
+
+
+          <!-- Footer  -->
           <footer id="footer" class="footer-1">
             <div class="main-footer widgets-dark typo-light">
             <div class="container">
@@ -225,7 +242,7 @@
             
               <div class="col-xs-12 col-sm-6 col-md-3">
             <div class="widget subscribe no-box">
-            <h5 class="widget-title">BURNOUT GYM<span></span></h5>
+            <h5 class="widget-title text-warning">BURNOUT GYM<span></span></h5>
             <p>Burnout Gym Has Been The Authority In Fitness Since 1965 Dating Back To The Original Burnout Gym In Venice, California. </p>
             </div>
             </div>
@@ -233,13 +250,13 @@
               
             <div class="col-xs-12 col-sm-6 col-md-3">
             <div class="widget no-box">
-            <h5 class="widget-title">Quick Links<span></span></h5>
+            <h5 class="widget-title text-warning">Quick Links<span></span></h5>
             <ul class="thumbnail-widget">
             <li>
-            <div><a href="#carouselExampleIndicators"> <i class="fas fa-arrow-up"></i>  Take me to top</a></div> 
+            <div><a href="#"> <i class="fas fa-arrow-up"></i>  Take me to top</a></div> 
             </li>
             <li>
-            <div><a href="./src/Registration.html"><i class="fas fa-arrow-up"></i> Take me to Join page</a></div> 
+            <div><a href="./src/Registration.html"><i class="fas fa-arrow-right"></i> Take me to Join page</a></div> 
             </li>
             <li>
             </ul>
@@ -250,7 +267,7 @@
             
                   <div class="col-xs-12 col-sm-6 col-md-3">
             <div class="widget no-box">
-            <h5 class="widget-title">Follow us<span></span></h5>
+            <h5 class="widget-title text-warning">Follow us<span></span></h5>
                         <a href="#"> <i class="fab fa-facebook fa-lg"></i> </a>
                         <a href="#"> <i class="fab fa-twitter-square fa-lg"></i> </a>
                         <a href="#"> <i class="fab fa-youtube fa-lg"></i> </a>
@@ -262,12 +279,10 @@
             
             <div class="col-xs-12 col-sm-6 col-md-3">
             <div class="widget no-box">
-            <h5 class="widget-title">Get in touch...<span></span></h5>
+            <h5 class="widget-title text-warning">Get in touch...<span></span></h5>
                         <p>Get subscribed to our Newletters</p>
               <div class="emailfield">
             <input type="text" name="email" id="footer-email" placeholder="Email">
-            <input name="uri" type="hidden" value="arabiantheme">
-            <input name="loc" type="hidden" value="en_US">
             <input class="submitbutton ripplelink" type="submit" value="Subscribe">
             </form>  
             </div>
