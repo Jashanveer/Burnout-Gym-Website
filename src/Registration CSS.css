@@ -1,13 +1,23 @@
-body {
+/* body {
     background-image: url('../Pictures/registration\ bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 
-}
+} */
 
+#myVideo {
+    position:fixed;
+    background-size: contain;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    left: -90px;
+    min-width: 100%;
+    min-height: 100%;
+    z-index:-1;
+}
 .main {
-    background: -webkit-linear-gradient(to right, white, #f0f9ff);
-  background: linear-gradient(to bottom right, white, #f0f9ff);
+  background-image: linear-gradient(to bottom right, rgb(248, 246, 227), #faddd0);
     width: 700px;
     height: 800px;
     margin: 7em auto;
@@ -15,7 +25,7 @@ body {
     box-shadow: 0px 11px 35px 2px rgba(41, 20, 109, 0.315);
 }
 
-.sign {
+.title {
    
     height: 40px;
     padding: 40px;
@@ -43,7 +53,6 @@ padding: 12px 20px;
 border: none;
 border-radius: 20px;
 outline: none;
-box-sizing: border-box;
 border: 2px solid #CCE4FF;
 margin-bottom: 50px;
 margin-left: 30px;
@@ -67,9 +76,9 @@ border: 2px solid #CCE4FF;
 margin-bottom: 50px;
 margin-left: 30px;
 text-align: left;
-margin-bottom: 27px;
 font-family: 'Open Sans', sans-serif;
 }
+
 .t-btn1{
     background-color: #CCE4FF;
     border: none;
@@ -97,7 +106,6 @@ font-family: 'Open Sans', sans-serif;
     margin-bottom: 50px;
     margin-left: 30px;
     text-align: left;
-    margin-bottom: 27px;
     font-family: 'Open Sans', sans-serif;
     
 }
